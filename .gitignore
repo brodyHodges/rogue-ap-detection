@@ -1,0 +1,6 @@
+media/*
+!media/.gitkeep
+.DS_Store
+*.log
+*.bin
+*.pcap
