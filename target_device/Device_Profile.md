@@ -6,13 +6,13 @@ its appearance alone.
 
 ## Edge computer
 
-- Manufacturer and model: Unknown
-- RAM: Unknown
-- CPU architecture: Unknown
-- Operating system and version: Unknown
-- Kernel version: Unknown
-- Wireless interface and driver: Unknown
-- Capture mode and supported band(s): Unknown
+- Manufacturer and model: Raspberry Pi 5, 16 GB
+- CPU architecture: aarch64
+- Operating system and version: Ubuntu Server 24.04.5 LTS
+- Kernel version: 6.8.0-1065-raspi
+- Wireless interface: wlan0, currently in managed mode
+- Monitor-mode support: Not advertised by the currently loaded Wi-Fi driver
+
 
 ## ESP32 monitor
 
