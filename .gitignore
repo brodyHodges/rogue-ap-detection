@@ -1,6 +1,26 @@
 media/*
 !media/.gitkeep
 .DS_Store
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ESP32 build output
+build/
+.pio/
+
+# Local logs and raw wireless captures.
+# Do not commit captures that could contain other people's network data.
 *.log
-*.bin
 *.pcap
+*.pcapng
+
+# Device images or firmware binaries
+*.bin
+*.img
+
+# Files or folders marked as private
+*private*
